@@ -29,7 +29,7 @@ function Footer() {
           Serving Brisbane seniors with safe, professional pressure washing services
         </p>
         <p style={{ opacity: 0.8 }}>
-          ABN: [Your ABN Here] | Fully Insured | CHSP Approved Provider
+         ABN: 18 865 697 083 | Fully Insured | CHSP Approved Provider
         </p>
         <p style={{ marginTop: '2rem', fontSize: '16px' }}>
           © 2026 HazardWash. All rights reserved.
