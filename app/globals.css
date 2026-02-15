@@ -343,6 +343,10 @@ body {
   color: white;
   display: inline-block;
 }
+.footer p {
+  color: white;
+  opacity: 0.9;
+}
 /* Success Message Styles */
 .success-message {
   max-width: 600px;
