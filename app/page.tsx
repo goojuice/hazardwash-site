@@ -9,10 +9,11 @@ function Header() {
           Hazard<span className="logo-accent">Wash</span>
         </div>
         <nav className="nav">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contact</a>
-        </nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="/providers" className="btn btn-primary" style={{padding: '0.6rem 1.2rem', fontSize: '16px'}}>For Care Providers</a>
+</nav>
       </div>
     </header>
   );
@@ -139,7 +140,7 @@ export default function Home() {
             </p>
             <div className="cta-group">
               <a href="#contact" className="btn btn-primary">Request Service</a>
-              <a href="#providers" className="btn btn-secondary">For Care Providers</a>
+              <a href="/providers" className="btn btn-secondary">For Care Providers</a>
             </div>
           </div>
         </section>

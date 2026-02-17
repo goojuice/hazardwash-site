@@ -383,3 +383,48 @@ body {
   font-size: 18px;
   color: var(--charcoal);
 }
+/* Providers Page */
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.credential-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.credential-icon {
+  font-size: 40px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.credential-info h3 {
+  font-size: 20px;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.credential-info p {
+  font-size: 17px;
+  color: #5a5a5a;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 20px;
+  color: #5a5a5a;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
