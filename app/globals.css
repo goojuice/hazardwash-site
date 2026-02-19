@@ -7,7 +7,7 @@
 :root {
   --navy: #1a3a52;
   --ocean: #2b5f7f;
-  --mint: #86c7a8;
+  --mint: #86c7a8;  
   --cream: #faf8f4;
   --charcoal: #2d3436;
   --soft-blue: #e8f2f7;
@@ -427,4 +427,20 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+/* Phone Link Styles */
+.phone-link {
+  color: var(--navy) !important;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  background: var(--mint);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.phone-link:hover {
+  background: #9dd4b9;
+  transform: translateY(-2px);
 }

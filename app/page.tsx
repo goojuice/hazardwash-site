@@ -9,11 +9,12 @@ function Header() {
           Hazard<span className="logo-accent">Wash</span>
         </div>
         <nav className="nav">
-  <a href="#home">Home</a>
-  <a href="#services">Services</a>
-  <a href="#contact">Contact</a>
-  <a href="/providers" className="btn btn-primary" style={{padding: '0.6rem 1.2rem', fontSize: '16px'}}>For Care Providers</a>
-</nav>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="tel:1300HAZARD" className="phone-link">📞 1300 HAZARD</a>
+          <a href="/providers" className="btn btn-primary" style={{ padding: '0.6rem 1.2rem', fontSize: '16px' }}>For Care Providers</a>
+        </nav>
       </div>
     </header>
   );
@@ -29,8 +30,11 @@ function Footer() {
         <p style={{ fontSize: '18px', marginBottom: '1rem' }}>
           Serving Brisbane seniors with safe, professional pressure washing services
         </p>
+        <p style={{ fontSize: '20px', marginBottom: '1rem' }}>
+          📞 <a href="tel:1300HAZARD" style={{ color: 'white', textDecoration: 'none' }}>1300 HAZARD</a>
+        </p>
         <p style={{ opacity: 0.8 }}>
-         ABN: 18 865 697 083 | Fully Insured | CHSP Approved Provider
+          ABN: 18 865 697 083 | Fully Insured | CHSP Approved Provider
         </p>
         <p style={{ marginTop: '2rem', fontSize: '16px' }}>
           © 2026 HazardWash. All rights reserved.
@@ -73,8 +77,8 @@ function ContactForm() {
         <div className="success-icon">✓</div>
         <h3>Thank You!</h3>
         <p>Your request has been received. We'll contact you shortly.</p>
-        <button 
-          onClick={() => setIsSubmitted(false)} 
+        <button
+          onClick={() => setIsSubmitted(false)}
           className="btn btn-primary"
           style={{ marginTop: '2rem' }}
         >
@@ -114,9 +118,9 @@ function ContactForm() {
       </div>
       <div className="form-group">
         <label htmlFor="message">Tell us about your needs</label>
-        <textarea 
-          id="message" 
-          name="message" 
+        <textarea
+          id="message"
+          name="message"
           placeholder="Describe the area needing cleaning, any mobility concerns, or special requirements..."
         />
       </div>
@@ -207,11 +211,11 @@ export default function Home() {
         </section>
 
         {/* Contact Form */}
-       {/* Contact Form */}
-<section className="section contact-section" id="contact">
-  <h2 className="section-title">Request a Service</h2>
-  <ContactForm />
-</section>
+        {/* Contact Form */}
+        <section className="section contact-section" id="contact">
+          <h2 className="section-title">Request a Service</h2>
+          <ContactForm />
+        </section>
       </main>
       <Footer />
     </>
