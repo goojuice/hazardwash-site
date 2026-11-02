@@ -64,7 +64,7 @@ function ContactForm() {
         setIsSubmitted(true);
         form.reset();
       }
-    } catch (error) {
+    } catch {
       alert('Something went wrong. Please try again.');
     } finally {
       setIsSubmitting(false);
@@ -76,7 +76,7 @@ function ContactForm() {
       <div className="success-message">
         <div className="success-icon">✓</div>
         <h3>Thank You!</h3>
-        <p>Your request has been received. We'll contact you shortly.</p>
+        <p>Your request has been received. We&apos;ll contact you shortly.</p>
         <button
           onClick={() => setIsSubmitted(false)}
           className="btn btn-primary"
